@@ -1,0 +1,46 @@
+
+    .flex{
+        display: flex;
+    }
+    .justify-center{
+        justify-content: center;
+    }
+    .items-center{
+        align-items: center;
+    }
+    .rounded{
+        border-radius: 7px;
+    }
+    .m-1{
+        margin: 5px;
+    }
+    .p-1{
+       padding: 13px;
+    }
+    /* For Webkit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  /* Track (the background part) */
+  ::-webkit-scrollbar-track {
+    background: #333; /* Dark gray track */
+  }
+  
+  /* Handle (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #000; /* Black scrollbar handle */
+    border-radius: 6px; /* Rounded corners for a smoother look */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Slightly lighter on hover for feedback */
+  }
+  
+  /* Firefox scrollbar styling (modern versions) */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #000 #333; /* Black handle, dark gray track */
+  }
+  
